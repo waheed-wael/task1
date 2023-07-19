@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Coldy - Carpenter Website Template</title>
+    <title>Coldy </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -26,8 +26,11 @@
     <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link rel="stylesheet" href="css/ar.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="css/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="css/templatemo-festava-live.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
@@ -42,7 +45,7 @@
     <!-- Topbar Start -->
     <div class="container-fluid bg-light p-0">
         <div class="row gx-0 d-none d-lg-flex">
-            <div class="col-lg-7 px-5 text-start">
+            <div class="col-lg-7 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-map-marker-alt text-primary me-2"></small>
                     <small>القاهرة - المنصورة - الدقهلية</small>
@@ -52,7 +55,7 @@
                     <small>السبت - الجمعة : 09.00 مساء - 09.00 صباحا</small>
                 </div>
             </div>
-            <div class="col-lg-5 px-5 text-end">
+            <div class="col-lg-5 px-5 text-start">
                 <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                     <small class="fa fa-phone-alt text-primary me-2"></small>
                     <small>+012 345 6789</small>
@@ -71,31 +74,55 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top p-0">
-        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
-            <h2 class="m-0 text-primary">Coldy</h2>
-        </a>
-        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <div class="navbar-nav ms-auto p-4 p-lg-0">
-                <a href="index.html" class="nav-item nav-link">الرئيسية</a>
-                <a href="about.html" class="nav-item nav-link">معلومات عنا</a>
-                <a href="service.html" class="nav-item nav-link">خدماتنا</a>
-                <a href="project.html" class="nav-item nav-link">المشاريع</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">المزيد عنا</a>
-                    <div class="dropdown-menu fade-up m-0 text-end">
-                        <a href="feature.html" class="dropdown-item">ما نتميز به</a>
-                        <a href="quote.html" class="dropdown-item active">سجل معنا</a>
-                        <a href="team.html" class="dropdown-item">فريقنا</a>
-                        <a href="testimonial.html" class="dropdown-item">شهادة</a>
-                        <a href="404.html" class="dropdown-item">404 صفحة</a>
-                    </div>
-                </div>
-                <a href="contact.html" class="nav-item nav-link">اتصال</a>
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center px-4 px-lg-5" href="index.html">
+                <h2 class="m-0 text-primary">Coldy</h2>
+            </a>
+
+
+            <button class="navbar-toggler me-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto p-4 p-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll " href="index.html">الرئيسية</a>
+                        
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" <a href="about.html">معلومات عنا</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="service.html">خدماتنا</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="project.html">المشاريع</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link click-scroll" href="contact.html">اتصال</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"> المزيد عنا</a>
+                            <div class="dropdown-menu fade-up m-0 text-end">
+                                <a href="feature.html" class="dropdown-item">ما نتميز به</a>
+                                <a href="quote.html" class="dropdown-item active">سجل معنا</a>
+                                <a href="team.html" class="dropdown-item">فريقنا</a>
+                                <a href="testimonial.html" class="dropdown-item">شهادة</a>
+                                <a href="404.html" class="dropdown-item">404 صفحة</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+
+                <a href="#" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">سجل<i class="fa fa-arrow-left ms-3 px-2"></i></a>
             </div>
-            <a href="" class="btn btn-primary py-4 px-lg-5 d-none d-lg-block">سجل<i class="fa fa-arrow-left ms-3 px-2"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -231,6 +258,11 @@
 
 
     <!-- JavaScript Libraries -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/custom.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
